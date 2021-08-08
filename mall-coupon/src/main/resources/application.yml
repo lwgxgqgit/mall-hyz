@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mall-coupon
+  datasource:
+    username: root
+    password: root@hiekn
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.4.151:3306/rs_sms?serverTimezone=Asia/Shanghai
+
+server:
+  port: 9001

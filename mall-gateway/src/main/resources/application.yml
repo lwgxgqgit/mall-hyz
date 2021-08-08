@@ -1,0 +1,17 @@
+
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: b_route
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+        - id: j_route
+          uri: https://www.jingdong.com
+          predicates:
+            - Query=url,jd
+
+#server:
+#  port: 9000
